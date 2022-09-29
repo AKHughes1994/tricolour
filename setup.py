@@ -9,7 +9,7 @@ with open('README.rst') as readme_file:
     readme = readme_file.read()
 
 requirements = [
-    'dask[array] == 2021.2.0',
+    'dask[array]',
     'donfig >= 0.4.0',
     'numpy >= 1.14.0, <= 1.19.5',  # breakage in newer numpy + numerical errors
     'numba >= 0.43.0',
