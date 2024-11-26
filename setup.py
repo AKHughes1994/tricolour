@@ -19,7 +19,7 @@ with open('README.rst') as readme_file:
 #   'zarr >= 2.3.1, <=2.17.1'
 #]
 
-requirements= ['numpy']
+requirements= ['numpy','threadpoolctl >= 1.0.0, <=3.4.0']
 
 extras_require = {'testing': ['pytest',
                               'pytest-flake8',
