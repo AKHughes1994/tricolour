@@ -19,6 +19,8 @@ with open('README.rst') as readme_file:
 #   'zarr >= 2.3.1, <=2.17.1'
 #]
 
+requirements= ['numpy']
+
 extras_require = {'testing': ['pytest',
                               'pytest-flake8',
                               "flake8 >= 4.0.0, <5.0.0",
