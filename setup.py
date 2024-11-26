@@ -8,16 +8,16 @@ from setuptools import setup, find_packages
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
-requirements = [
-    'dask[array] >= 2021.2.0, <=2024.3.1',
-    'donfig >= 0.4.0, <0.8.2',
-    'numpy >= 1.14.0, <= 1.22.0',
-    'numba >= 0.43.0, <= 0.59.1',
-    'scipy >= 1.2.0, <=1.12.0',
-    'threadpoolctl >= 1.0.0, <=3.4.0',
-    'dask-ms >= 0.2.6, <=0.2.20',
-    'zarr >= 2.3.1, <=2.17.1'
-]
+#requirements = [
+#    'dask[array] >= 2021.2.0, <=2024.3.1',
+#    'donfig >= 0.4.0, <0.8.2',
+#    'numpy >= 1.14.0, <= 1.22.0',
+#    'numba >= 0.43.0, <= 0.59.1',
+#    'scipy >= 1.2.0, <=1.12.0',
+#    'threadpoolctl >= 1.0.0, <=3.4.0',
+#    'dask-ms >= 0.2.6, <=0.2.20',
+#   'zarr >= 2.3.1, <=2.17.1'
+#]
 
 extras_require = {'testing': ['pytest',
                               'pytest-flake8',
